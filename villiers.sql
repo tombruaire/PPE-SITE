@@ -6,7 +6,7 @@ Create table evenements (
     idevent int(11) not null auto_increment,
     nomevent varchar(50),
     dateevent date,    
-	heureevent time,
+    heureevent time,
     lieuevent varchar(50),
     nbievent int(25),
     prixplaceevent float(25),
@@ -231,11 +231,11 @@ Create table utilisateurs (
     pseudo varchar(25) UNIQUE,
     email varchar(255) UNIQUE,
     motdepasse varchar(255),
-	date_inscription date,
-	heure_inscription time,
-	numero_confirmation varchar(255),
-	confirme int not null default 0,
-	lvl int not null default 1,
+    date_inscription date,
+    heure_inscription time,
+    numero_confirmation varchar(255),
+    confirme int not null default 0,
+    lvl int not null default 1,
     primary key (id)
 ) ENGINE=InnoDB;
 
@@ -256,8 +256,8 @@ Create table commentaires (
 	idcom int(11) not null auto_increment,
   	contenu varchar(255),
   	posted_date date,
-    posted_time time,
-    user_id int(11),
+    	posted_time time,
+    	user_id int(11),
   	primary key (idcom)
 ) ENGINE=InnoDB;
 
@@ -266,3 +266,4 @@ Insert into commentaires values
 (2, "Il fait beau à Villiers sur Marne !", "2021-01-06", "16:44:21", 2),
 (3, "Cette ville est magnifique !", "2021-01-15", "21:45:21", 3);
 
+-- Deuxième partie de la base dans https://github.com/tombruaire/PPE-ADMIN
