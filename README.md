@@ -1,4 +1,8 @@
-# PPE-SITE
+# Mairie de Villiers (Site)
 
 # Identifians de connexion
-tombruaire / Azerty123
+Pseudo : tombruaire<br>
+Mot de passe : Azerty123
+
+# Partie admin
+https://github.com/tombruaire/PPE-ADMIN
