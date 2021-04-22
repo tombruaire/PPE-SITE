@@ -1,6 +1,6 @@
 # Mairie de Villiers (Site)
 
-# Identifians de connexion
+# Identifiant de connexion
 <b>Pseudo</b> : tombruaire<br>
 <b>Mot de passe</b> : Azerty123
 
