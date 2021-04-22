@@ -240,9 +240,9 @@ Create table utilisateurs (
 ) ENGINE=InnoDB;
 
 Insert into utilisateurs values
-(1, "BRUAIRE", "Tom", "tombruaire", "tom@gmail.com", "107d348bff437c999a9ff192adcb78cb03b8ddc6", "2021-01-04", "10:30:00", null, 0, 1),
-(2, "NASALAN", "Giscard", "giscardnasalan", "giscard@gmail.com", "107d348bff437c999a9ff192adcb78cb03b8ddc6", "2021-01-05", "11:58:52", null, 0, 1),
-(3, "PHAM", "Son Tung", "phamsontung", "sontung@gmail.com", "107d348bff437c999a9ff192adcb78cb03b8ddc6", "2021-01-10", "19:25:32", null, 0, 1);
+(1, "BRUAIRE", "Tom", "tombruaire", "tom@gmail.com", "107d348bff437c999a9ff192adcb78cb03b8ddc6", "2021-01-04", "10:30:00", null, 1, 1),
+(2, "NASALAN", "Giscard", "giscardnasalan", "giscard@gmail.com", "107d348bff437c999a9ff192adcb78cb03b8ddc6", "2021-01-05", "11:58:52", null, 1, 1),
+(3, "PHAM", "Son Tung", "phamsontung", "sontung@gmail.com", "107d348bff437c999a9ff192adcb78cb03b8ddc6", "2021-01-10", "19:25:32", null, 1, 1);
 
 Create table recuperation (
 	idrecup int(11) not null auto_increment,
